@@ -28,9 +28,10 @@ Run all test scenarios:
 
 Executing test using node
 - $(npm bin)/cypress-tags run -e TAGS="@smoke" --env configFile="staging" --browser "electron" --headless
-- $(npm bin)/cypress-tags run -e TAGS="@regression" --env configFile="staging" --browser 
 
 Run all test scenarios:
+- $(npm bin)/cypress-tags run -e TAGS="@regression" --env configFile="staging" --browser 
+
 
 ## Run test using docker 
 
