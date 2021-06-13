@@ -1,3 +1,4 @@
+@regression
 Feature: Clear crew search list 
 
     As a user,

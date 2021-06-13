@@ -1,3 +1,4 @@
+@regression
 Feature: Search a crew using by invalid name and city
 
     As a user,

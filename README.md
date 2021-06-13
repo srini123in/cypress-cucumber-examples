@@ -23,8 +23,14 @@ Install NodeJS, NPM and Chrome on your machine
 Executing test using shell script
 - sh ./run-tests.sh -t @smoke -e staging -b electron
 
+Run all test scenarios:
+- sh ./run-tests.sh -t @regression -e staging -b electron
+
 Executing test using node
 - $(npm bin)/cypress-tags run -e TAGS="@smoke" --env configFile="staging" --browser "electron" --headless
+- $(npm bin)/cypress-tags run -e TAGS="@regression" --env configFile="staging" --browser 
+
+Run all test scenarios:
 
 ## Run test using docker 
 

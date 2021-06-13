@@ -1,4 +1,4 @@
-@smoke
+@smoke @regression
 Feature: Manage crew card dashboard by moving into right status
 
     As a user,

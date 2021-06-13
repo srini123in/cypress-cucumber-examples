@@ -1,4 +1,4 @@
-@smoke
+@smoke @regression
 Feature: Search a crew using by name and city
 
     As a user,
